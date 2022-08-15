@@ -1,0 +1,42 @@
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first__img {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 90%;
+}
+.first_bgcolor {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 65%;
+  height: 100vh;
+  background-color: #fbffa7;
+}
+.first__right,
+.first__left {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100vh;
+}
+.first__right {
+}
+
+.first__left img {
+  width: 80%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.first__right img {
+  width: 70%;
+}
+

@@ -1,0 +1,37 @@
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 70vh;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #b1c5ff;
+}
+
+.fourth img {
+  width: 50%;
+  object-fit: cover;
+  flex: 1;
+}
+
+.fourth__p {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  gap: 30px;
+}
+
+.fourth__p p,
+.fourth__p a {
+  width: 80%;
+  font-size: 1.5em;
+}
+
+.fourth__p a {
+  color: blue;
+}

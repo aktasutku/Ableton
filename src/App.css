@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: "Poppins", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+/* For the text */
+.text__p {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 50%;
+  margin: 100px 0;
+}
+.text__p h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.text__p a {
+  color: #0000ff;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text__p h4 {
+  margin: 30px 0;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
